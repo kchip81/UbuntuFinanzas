@@ -2,5 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/ubuntufi/public_html
-    - /bin/cp -R index.html $DEPLOYPATH
-    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
+    
